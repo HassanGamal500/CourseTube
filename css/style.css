@@ -1,0 +1,160 @@
+/* frameworks */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.overlay {
+    background-color: rgba(52, 57, 64, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 662px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    height: 100%;
+    background-image: url(../image/global-business.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+.header .navbar {
+    background-color: rgba(40, 116, 206, 0.81);
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header .navbar .logo {
+    float: left;
+    margin: 10px 20px;
+    text-transform: uppercase;
+    font-weight:normal;
+    font-size: 22px;
+    cursor: pointer
+}
+
+.header .navbar .logo p {
+    margin: 0;
+    padding: 10px 20px;
+    color: #23239b;
+    border: 2px solid #23239b;
+    border-radius: 80px
+}
+
+.header .navbar .logo span {
+    color: #FFF;
+}
+
+.header .navbar .sign-in {
+    float: right;
+    margin: 10px 20px
+}
+
+.header .navbar ul {
+    list-style: none;
+}
+
+.header .navbar ul li {
+    display: inline-block
+}
+
+.header .navbar ul li a {
+    text-decoration: none;
+    border: 2px solid #23239b;
+    padding: 10px 40px;
+    margin: 2px 20px 0 0;
+    color: #FFF;
+    text-transform:capitalize;
+    font-weight: normal;
+    border-radius: 80px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.header .navbar ul li a:hover {
+    background-color: #23239b;
+}
+
+.header .login {
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: rgba(40, 116, 206, 0.81);
+    border-radius: 15px
+}
+
+.header .login p:first-child {
+    margin: 1px 0 30px 0;
+    padding: 20px;
+    color: #23239b;
+    text-transform: uppercase;
+    font-weight:normal;
+    font-size: 50px;
+    border: 2px solid #FFF;
+    border-radius: 10px
+}
+
+.header .login span {
+    color: #FFF;
+}
+
+.header .login input[type="email"],
+.header .login input[type="password"] {
+    border: none;
+    margin: 0 0 20px 0;
+    padding: 10px 20px;
+    width: 350px;
+    border-radius: 10px;
+    color: #23239b
+}
+
+.header .login input[type="submit"] {
+    border: none;
+    margin: 0 0 20px 0;
+    padding: 10px 20px;
+    width: 260px;
+    border-radius: 7px;
+    background-color: #3f3fac;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.header .login input[type="submit"]:hover {
+    background-color: #23239b;
+}
+
+.header .login a {
+    text-decoration: none;
+    color: #23239b;
+}
+
+.header .login a:hover {
+    text-decoration:underline
+}
